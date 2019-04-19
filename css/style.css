@@ -165,6 +165,19 @@ html{
     padding: 10px 8px;
     box-shadow: 7px 7px 5px #aaaaaa;
 }
+.project h2 a{
+    background: #2d2d2d;
+    color: #c4c3c2;
+    text-decoration: none;
+}
+.project h2 a:hover{
+    background: #E5E8ED ;
+    color: #F1C644;
+}
+.project p{
+    background: #2d2d2d;
+    color: #F1C644;
+}
 
 /* CONTACTS */
 .contacts{
