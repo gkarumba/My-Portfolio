@@ -262,4 +262,14 @@ footer{
         font-size: 18px;
         padding: 2px 5px;
     }
+    .about{
+        display: grid;
+        grid-gap: 25px;
+        grid-template-areas: 
+        'meetme'
+        'meetme'
+        'aboutme'
+        'funfact';
+        margin-bottom: 20px;
+    }
 }
