@@ -236,3 +236,13 @@ textarea{
     border:2px solid #ccc; 
     border-radius: 5px;
 }
+
+/* FOOTER */
+footer{
+    background: #2d2d2d;
+    color: #E5E8ED;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 7px 7px 5px #aaaaaa;
+}
