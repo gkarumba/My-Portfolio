@@ -39,3 +39,32 @@ html{
     background: #E5E8ED ;
     color: #F1C644;
 }
+
+/* HOME SECTION */
+.home{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-image: url('https://picsum.photos/900/700?image=998');
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height: 350px;
+    margin-bottom: 20px;
+    box-shadow: 7px 7px 5px #aaaaaa;
+}
+.home h2{
+    background: #2d2d2d;
+    font-size: 50px;
+    color: #EF3528;
+    opacity: 0.9;
+}
+.home h2 span{
+    color: #F1C644;
+}
+.home p{
+    font-size: 30px;
+    color: #EF3528;
+    opacity: 0.9;
+}
