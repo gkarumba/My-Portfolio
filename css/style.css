@@ -165,3 +165,74 @@ html{
     padding: 10px 8px;
     box-shadow: 7px 7px 5px #aaaaaa;
 }
+
+/* CONTACTS */
+.contacts{
+    display: grid;
+    grid-gap: 25px;
+    grid-template-areas: 
+    'follow_us contact get_in_touch'
+    'follow_us contact get_in_touch';
+    margin-bottom: 20px;
+    background: #222222;
+    box-shadow: 7px 7px 5px #aaaaaa;
+}
+.follow_us{
+    min-width: 30vh;
+    grid-area:follow_us;
+    color: #c4c3c2;
+    padding:10px;
+    text-align: center;
+}
+.follow_us h3{
+    font-size: 30px
+}
+.follow_us ol{
+    list-style: none;
+}
+.follow_us i{
+    font-size: 45px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.contact{
+    min-width: 30vh;
+    grid-area:contact;
+    color: #c4c3c2;
+    padding:10px;
+    text-align: center;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    border-left: 2px solid #c4c3c2;
+}
+.get_in_touch{
+    min-width: 30vh;
+    grid-area:get_in_touch;
+    color: #c4c3c2;
+    padding:10px;
+    text-align: center;
+    border-left: 2px solid #c4c3c2;
+}
+.get_in_touch h3{
+    font-size: 30px;
+}
+input[type=text] {
+    padding: 12px 20px;
+    margin-bottom: 10px; 
+    border:2px solid #ccc; 
+    border-radius: 5px;
+}
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+}
+textarea{
+    padding: 12px 20px;
+    margin-bottom: 10px; 
+    border:2px solid #ccc; 
+    border-radius: 5px;
+}
