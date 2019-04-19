@@ -92,7 +92,7 @@
             <p>A weight Converter created using html/css and Javascript. Converts from pounds to either Grams, Kilograms or Oz </p>
         </div>
     </section>
-    
+
     <!-- CONTACTS SECTION -->
     <section class="meetjohn">
         <h3>Follow Me</h3>
@@ -115,10 +115,13 @@
         </div>
         <div class="get_in_touch">
             <h3>Get In Touch</h3>
-            <input type="text" name="Name" placeholder="Your Name" id="user_name"><br>
-            <input type="text" name="email" placeholder="Your Email" id="user_email"><br>
-            <textarea  name = "description" placeholder="Write your message"></textarea><br>
-            <input type="submit" value="submit">
+            <form action="" id="myform">
+                <input type="text" name="Name" placeholder="Your Name" id="user_name"><br>
+                <input type="text" name="email" placeholder="Your Email" id="user_email"><br>
+                <textarea  name = "description" placeholder="Write your message"></textarea><br>
+                <input type="submit" onclick="submit()" value="submit">
+            </form>
+            
         </div>
     </section>
 
@@ -126,5 +129,12 @@
     <footer>
         <p>Made with &#x1F48C; by John &copy; 2019</p>
     </footer>
+
+    <!-- SCRIPT -->
+    <script>
+        function submit() {
+            document.getElementById("myform").reset();
+        }
+    </script>
 </body>
 </html>
