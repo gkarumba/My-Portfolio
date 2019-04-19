@@ -151,3 +151,17 @@ html{
     width:150px;
     height:150px;
 }
+
+/* PROJECTS */
+.projects{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    margin-bottom: 20px;
+}
+.project{
+    background-image: url('https://picsum.photos/150/150?image=1073');
+    text-align: center;
+    padding: 10px 8px;
+    box-shadow: 7px 7px 5px #aaaaaa;
+}
