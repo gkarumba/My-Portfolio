@@ -1,5 +1,5 @@
 ## Personal Portfolio
-    []
+    [https://gkarumba.github.io/My-Portfolio/]
 
 ## Created By
     John Karumba
@@ -19,7 +19,7 @@
     -Play around with the project
 
 ## Link to Personal Portfolio
-    Personal Portfolio is hosted on github at []
+    Personal Portfolio is hosted on github at [https://gkarumba.github.io/My-Portfolio/]
 
 ## License
     This project is licensed under MIT [LICENSE](/LICENSE #LICENSE)
