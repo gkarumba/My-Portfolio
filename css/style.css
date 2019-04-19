@@ -246,3 +246,20 @@ footer{
     justify-content: center;
     box-shadow: 7px 7px 5px #aaaaaa;
 }
+
+@media screen and (max-width:700px){
+    .navbar ul{
+        display: flex;
+        text-align: left;
+        justify-content: left;
+        list-style: none;
+    }
+    .navbar img{
+        display: none;
+    }
+    .navbar li{
+        margin-left: 10px;
+        font-size: 18px;
+        padding: 2px 5px;
+    }
+}
