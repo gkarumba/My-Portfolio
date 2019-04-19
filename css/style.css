@@ -2,3 +2,40 @@ html{
     box-sizing: border-box;
     font-family: 'Cinzel Decorative';
 }
+
+/* NAVBAR */
+.navbar{
+    background: #2d2d2d;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 7px 7px 5px #aaaaaa;
+    position: sticky;
+}
+.navbar img{
+    float: left;
+    width: 75px;
+    height: 80.5px;
+    margin-left:0px; 
+}
+.navbar ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    position: sticky;
+}
+.navbar li{
+    text-decoration: none;
+    font-family: 'Cinzel Decorative';
+    font-size: 22px;
+    padding: 5px 20px;
+    position: sticky;
+}
+.navbar a{
+    color: #c4c3c2;
+    position: sticky;
+}
+.navbar a:hover{
+    background: #E5E8ED ;
+    color: #F1C644;
+}
